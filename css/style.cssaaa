@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6x10 = 16px */
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+h1 {
+    font-weight: 800;
+    font-size: 6rem;
+    margin: 1.6rem 0;
+}
+h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+}
+p {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/*index*/
+/* contenido */
+
+header {
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(../images/papa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.logo h1 {
+    font-size:3.2rem;
+    color: gold;
+    margin: 0;
+}
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+nav box-icon {
+    display: none;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+   display: inline-block;
+   margin-left: 2.5rem;
+}
+nav ul li a:hover {
+    color: gold;
+    transition: .5s ease-in-out;
+}
+
+
+.contenidoheader{
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    justify-content:center;
+}
+
+.seccion-i,
+.seccion-m,
+.seccion-d{
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+
+.btn{
+    background-color: GREEN;
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border:none;
+    border-radius:4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+footer{
+    height: 80px;
+    background-color:black;
+    line-height: 80px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+/* pagina cursos */
+.contenidoheadercursos{
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 41%;
+    justify-content:center;
+}
+
+/* pagina book */
+.contenidoheaderbook{
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 42%;
+    justify-content:center;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width:768px){
+    /*index*/
+    .row{
+    flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        position: relative;
+    }
+    nav box-icon{
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 32px;
+    }
+    nav ul{
+        background: whitesmoke ;
+        display: none;
+    }
+    .showmenu{
+        display:block;
+    }
+    nav ul li{
+        display: block;
+        padding:2% 0;
+
+    }
+    nav ul li a {
+        color: #222 ;
+    }
+
+    /* header */
+    .contenidoheader{
+        width: 100%;
+        top: 16%;
+        left: 0;
+        text-align: center;
+        padding:0 8px;
+    }
+
+
+    /* secciones main */
+    .seccion-i,
+.seccion-m,
+.seccion-d{
+    text-align: center;
+}
+/* cursos */
+/* header */
+.contenidoheadercursos{
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+.contenidoheaderbook{
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+#framevid{
+    height: 315px;
+    width: 80%;
+}
+}
+
+/* celulares*/
+@media only screen and (max-width:320px){
+    .contenidoheader{
+        width: 100%;
+        text-align: center;
+
+    }
+    .contenidoheader h1{
+        font-size: 4rem;
+    }
+    footer p{
+        font-size:1rem;
+    }
+    footer a{
+        font-size:.8rem;
+    }
+    .contenidoheadercursos{
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+.contenidoheaderbook{
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+#framevid{
+    width: 100%;
+    height: auto;
+}
+
+
+}
+

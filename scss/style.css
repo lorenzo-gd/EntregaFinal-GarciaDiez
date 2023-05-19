@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo h1 {
+  font-size: 3.2rem;
+  color: gold;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+nav ul li a:hover {
+  color: gold;
+  transition: 0.5s ease-in-out;
+}
+nav box-icon {
+  display: none;
+}
+
+footer {
+  height: 80px;
+  background-color: black;
+  line-height: 80px;
+  text-align: center;
+  color: whitesmoke;
+}
+footer .textofooter p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+footer .textofooter p a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+body h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  margin: 1.6rem 0;
+}
+body h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin: 1.6rem 0;
+}
+body img {
+  width: 100%;
+  height: auto;
+}
+body .row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+body section {
+  padding: 100px 0;
+}
+body p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+body .btn {
+  background-color: GREEN;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(../images/papa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+header .contenidoheader {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 41%;
+  justify-content: center;
+}
+header .contenidoheader h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  margin: 1.6rem 0;
+}
+header .contenidoheader p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+
+.secciones .row .seccion-i {
+  flex-basis: 30%;
+  padding: 1.6rem;
+}
+.secciones .row .seccion-i h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin: 1.6rem 0;
+}
+.secciones .row .seccion-i p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.secciones .row .seccion-i a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+.secciones .row .seccion-i a .btn {
+  background-color: GREEN;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.secciones .row .seccion-m {
+  flex-basis: 30%;
+  padding: 1.6rem;
+}
+.secciones .row .seccion-m h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin: 1.6rem 0;
+}
+.secciones .row .seccion-m p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.secciones .row .seccion-m a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+.secciones .row .seccion-m a .btn {
+  background-color: GREEN;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.secciones .row .seccion-d {
+  flex-basis: 30%;
+  padding: 1.6rem;
+}
+.secciones .row .seccion-d h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin: 1.6rem 0;
+}
+.secciones .row .seccion-d p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.secciones .row .seccion-d a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6x10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
+}
+.secciones .row .seccion-d a .btn {
+  background-color: GREEN;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+header .contenidoheadercursos {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 44%;
+  justify-content: center;
+}
+header .contenidoheadercursos h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  margin: 1.6rem 0;
+}
+
+header .contenidoheaderbook {
+  width: 50%;
+  position: relative;
+  top: 20%;
+  left: 44%;
+  justify-content: center;
+}
+header .contenidoheaderbook h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  margin: 1.6rem 0;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+  /*index*/
+  .row {
+    flex-direction: column;
+  }
+  header nav {
+    flex-direction: column;
+    position: relative;
+  }
+  header nav ul {
+    background: whitesmoke;
+    display: none;
+  }
+  header nav ul .showmenu {
+    display: block;
+  }
+  header nav ul li {
+    display: block;
+    padding: 2% 0;
+  }
+  header nav ul li a {
+    color: #222;
+  }
+  header nav box-icon {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 32px;
+  }
+  /* header */
+  header .contenidoheader {
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+  }
+  /* secciones main */
+  .seccion-i,
+  .seccion-m,
+  .seccion-d {
+    text-align: center;
+  }
+  /* cursos */
+  /* header */
+  header .contenidoheadercursos {
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  header .contenidoheaderbook {
+    width: 100%;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  #framevid {
+    height: 315px;
+    width: 80%;
+  }
+}
+/* celulares*/
+@media only screen and (max-width: 320px) {
+  header .contenidoheader {
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    justify-content: center;
+  }
+  header .contenidoheader h1 {
+    font-size: 3rem;
+  }
+  header .contenidoheader p {
+    font-size: 1.5rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  footer a {
+    font-size: 0.8rem;
+  }
+  .contenidoheadercursos {
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  .contenidoheaderbook {
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  #framevid {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

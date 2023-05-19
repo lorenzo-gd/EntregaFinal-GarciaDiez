@@ -1,0 +1,42 @@
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+
+        .logo  {
+                h1 {
+                    font-size:3.2rem;
+                    color: gold;
+                    margin: 0;
+                    }
+            
+        }
+
+        ul{
+            list-style: none;
+            
+
+            li {
+                display: inline-block;
+                margin-left: 2.5rem;
+                
+                a{
+                    text-decoration: none;
+                    font-weight: 400;
+                    /* 1.6x10 = 16px */
+                    font-size: 1.6rem;
+                    color: whitesmoke;
+
+                    &:hover{
+                        color: gold;
+                        transition: .5s ease-in-out;
+                    }
+                }
+            }
+
+        }
+
+        box-icon {
+            display: none;
+        }
+}

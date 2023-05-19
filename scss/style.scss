@@ -1,0 +1,411 @@
+@import './base/vars';
+@import './base/listas.scss';
+@import './base/maps.scss';
+
+
+@import './componentes/nav';
+@import './componentes/footer';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    a{
+        text-decoration: none;
+        font-weight: 400;
+        /* 1.6x10 = 16px */
+        font-size: 1.6rem;
+        color: map-get($map: $colores, $key: asheis)
+    }
+    h1{
+        font-weight: 800;
+    font-size: 6rem;
+    margin: 1.6rem 0;
+    }
+    h2{
+        font-weight: 800;
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .row {
+        display: flex;
+        justify-content:space-between;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+    
+    section {
+        padding: 100px 0;
+    }
+    p {
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    .btn{
+        background-color: map-get($map:$colores , $key: boton);
+        color: white;
+        padding: 8px 16px;
+        display: inline-block;
+        margin: 2rem 0;
+        border:none;
+        border-radius:4px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+
+header{
+    
+        height:100vh;
+        background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(../images/papa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: whitesmoke;
+    
+        
+    .contenidoheader{
+        width: 50%;
+        position: relative;
+        top: 20%;
+        left: 41%;
+        justify-content:center;
+
+        h1{
+            font-weight: 800;
+            font-size: 6rem;
+            margin: 1.6rem 0;
+            }
+            p {
+                font-weight: 400;
+                font-size: 1.8rem;
+                margin-left: 10px;
+            }
+        
+    } 
+}
+
+.secciones{
+    .row{
+        
+        .seccion-i{
+            flex-basis: 30%;
+            padding: 1.6rem;
+                h2{
+                    font-weight: 800;
+                    font-size: 2.4rem;
+                    margin: 1.6rem 0;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: 400;
+                    /* 1.6x10 = 16px */
+                    font-size: 1.6rem;
+                    color: whitesmoke;
+
+                    .btn{
+                        background-color: GREEN;
+                        color: white;
+                        padding: 8px 16px;
+                        display: inline-block;
+                        margin: 2rem 0;
+                        border:none;
+                        border-radius:4px;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+        }
+        .seccion-m{
+            flex-basis: 30%;
+            padding: 1.6rem;
+                h2{
+                    font-weight: 800;
+                    font-size: 2.4rem;
+                    margin: 1.6rem 0;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: 400;
+                    /* 1.6x10 = 16px */
+                    font-size: 1.6rem;
+                    color: whitesmoke;
+                    
+                    .btn{
+                        background-color: GREEN;
+                        color: white;
+                        padding: 8px 16px;
+                        display: inline-block;
+                        margin: 2rem 0;
+                        border:none;
+                        border-radius:4px;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+        }
+        .seccion-d{
+            flex-basis: 30%;
+            padding: 1.6rem;
+                h2{
+                    font-weight: 800;
+                    font-size: 2.4rem;
+                    margin: 1.6rem 0;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: 400;
+                    /* 1.6x10 = 16px */
+                    font-size: 1.6rem;
+                    color: whitesmoke;
+
+                    .btn{
+                        background-color: GREEN;
+                        color: white;
+                        padding: 8px 16px;
+                        display: inline-block;
+                        margin: 2rem 0;
+                        border:none;
+                        border-radius:4px;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+        }
+    
+    }
+
+}
+
+
+
+// seccion cursos
+
+header{
+    .contenidoheadercursos{
+        width: 50%;
+        position: relative;
+        top: 20%;
+        left: 44%;
+        justify-content:center;
+
+        h1{
+            font-weight: 800;
+            font-size: 6rem;
+            margin: 1.6rem 0;
+        }
+    } 
+}
+
+// seccion consultas
+
+header{
+    .contenidoheaderbook{
+        width: 50%;
+        position: relative;
+        top: 20%;
+        left: 44%;
+        justify-content:center;
+
+        h1{
+            font-weight: 800;
+            font-size: $fuentasheg;
+            margin: 1.6rem 0;
+        }
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width:768px){
+    /*index*/
+    .row{
+    flex-direction: column;
+    }
+    header{
+      nav{
+        flex-direction: column;
+        position: relative;
+            ul{
+                background: whitesmoke ;
+                display: none;
+                .showmenu{
+                                display:block;
+                            }
+                li{
+                    display: block;
+                    padding:2% 0;
+
+                    a {
+                        color: #222 ;
+                    }
+                }
+            }
+            box-icon{
+                display: block;
+                position: absolute;
+                top: 18px;
+                right: 32px;
+            }
+        }  
+    }
+    
+    
+    
+    
+    
+    
+
+    /* header */
+    header{
+    .contenidoheader{
+        width: 50%;
+        position: relative;
+        top: 20%;
+        left: 25%;
+        text-align: center;
+                    }
+            }
+
+    /* secciones main */
+    .seccion-i,
+.seccion-m,
+.seccion-d{
+    text-align: center;
+}
+/* cursos */
+/* header */
+header{
+    .contenidoheadercursos{
+        width: 100%;
+        top: 50%;
+        left: 0;
+        text-align: center;
+        padding:0 8px;
+    }
+}
+header{
+
+        .contenidoheaderbook{
+            width: 100%;
+            top: 50%;
+            left: 0;
+            text-align: center;
+            padding:0 8px;
+        }
+}
+#framevid{
+    height: 315px;
+    width: 80%;
+}
+}
+
+/* celulares*/
+@media only screen and (max-width:320px){
+    header{
+        .contenidoheader{
+            width: 50%;
+            position: relative;
+            top: 20%;
+            left: 25%;
+            justify-content:center;
+                    h1{
+                        font-size: $fuentashes;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                    }
+        }
+    }
+    footer p{
+        font-size:1rem;
+    }
+    footer a{
+        font-size:.8rem;
+    }
+    .contenidoheadercursos{
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+.contenidoheaderbook{
+    width: 100%;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    padding:0 8px;
+}
+#framevid{
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
